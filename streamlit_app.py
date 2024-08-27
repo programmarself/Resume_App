@@ -205,7 +205,7 @@ txt2('Scopus', 'http://www.scopus.com/authid/detail.url?authorId=12039071300')
 txt2('ResearcherID', 'http://www.researcherid.com/rid/F-1021-2010')
 txt2('ResearchGate', 'https://www.researchgate.net/profile/Chanin_Nantasenamat')
 txt2('Publons', 'https://publons.com/a/303133/')
-<h2 style="font-family: 'poppins'; font-weight: bold; color: Green;">👨💻 Author: Irfan Ullah Khan</h2>
+
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/programmarself) 
 [![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/programmarself) 

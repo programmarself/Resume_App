@@ -7,7 +7,7 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# Chanin Nantasenamat, Ph.D.
+# IRFAN ULLAH KHAN, BSCS.
 ##### *Resume* 
 ''')
 

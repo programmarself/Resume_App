@@ -197,7 +197,7 @@ st.markdown('''
 ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/chanin-nantasenamat')
 txt2('Twitter', 'https://twitter.com/thedataprof')
-txt2('GitHub', 'https://github.com/chaninn/')
+txt2('GitHub', 'https://github.com/programmarself')
 txt2('', 'https://github.com/chaninlab/')
 txt2('', 'https://github.com/dataprofessor')
 txt2('ORCID', 'http://orcid.org/0000-0003-1040-663X')
@@ -207,11 +207,11 @@ txt2('ResearchGate', 'https://www.researchgate.net/profile/Chanin_Nantasenamat')
 txt2('Publons', 'https://publons.com/a/303133/')
 
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/programmarself) 
-[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/programmarself) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/irfan-ullah-khan-4a2871208/)  
+text9([![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/programmarself)) 
+text9([![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/programmarself)) 
+text9([![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/irfan-ullah-khan-4a2871208/))  
 
-[![YouTube](https://img.shields.io/badge/YouTube-Profile-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@irfanullahkhan7748) 
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=email)](mailto:programmarself@gmail.com)
-[![Website](https://img.shields.io/badge/Website-Contact%20Me-red?style=for-the-badge&logo=website)](https://flowcv.me/ikm)
+text9([![YouTube](https://img.shields.io/badge/YouTube-Profile-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@irfanullahkhan7748)) 
+text9([![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=email)](mailto:programmarself@gmail.com))
+text9([![Website](https://img.shields.io/badge/Website-Contact%20Me-red?style=for-the-badge&logo=website)](https://flowcv.me/ikm))
 

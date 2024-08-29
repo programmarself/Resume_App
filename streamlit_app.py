@@ -7,8 +7,8 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# IRFAN ULLAH KHAN, BSCS.
-##### *Resume* 
+# IRFAN ULLAH KHAN
+##### *Data Scientist | Machine Learning Engineer | Data Engineer | Generative AI Engineer | Google Cloud Professional Certified*
 ''')
 
 image = Image.open('dp.png')
@@ -16,17 +16,16 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- Working on and busy with Data Science, Machine Learning , Ai ,Cloud Computing.
+- Working on and busy with Data Science, Machine Learning, AI, Cloud Computing.
 ''')
 
 #####################
 # Navigation
-
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
-  <a class="navbar-brand" href="https://www.youtube.com/channel/UCSYQH1JeLOsGq4Wg2JoxZnw" target="_blank">IRFAN ULLAH KHAN</a>
+  <a class="navbar-brand" href="https://www.linkedin.com/in/irfanullahkhanmarwat" target="_blank">IRFAN ULLAH KHAN</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -36,13 +35,16 @@ st.markdown("""
         <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#experience">Experience</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#education">Education</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#work-experience">Work Experience</a>
+        <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#bioinformatics-tools">Bioinformatics Tools</a>
+        <a class="nav-link" href="#certifications">Certifications</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#social-media">Social Media</a>
@@ -53,136 +55,51 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 #####################
-# Custom function for printing text
-def txt(a, b):
-  col1, col2 = st.columns([4,1])
-  with col1:
-    st.markdown(a)
-  with col2:
-    st.markdown(b)
-
-def txt2(a, b):
-  col1, col2 = st.columns([1,4])
-  with col1:
-    st.markdown(f'`{a}`')
-  with col2:
-    st.markdown(b)
-
-def txt3(a, b):
-  col1, col2 = st.columns([1,2])
-  with col1:
-    st.markdown(a)
-  with col2:
-    st.markdown(b)
-  
-def txt4(a, b, c):
-  col1, col2, col3 = st.columns([1.5,2,2])
-  with col1:
-    st.markdown(f'`{a}`')
-  with col2:
-    st.markdown(b)
-  with col3:
-    st.markdown(c)
+# Contact Information
+st.markdown('''
+## Contact
+- **Location:** Peshawar, Pakistan
+- **Mobile:** +92-3021906646
+- **Email:** programmarself@gmail.com
+- **LinkedIn:** [irfanullahkhanmarwat](https://www.linkedin.com/in/irfanullahkhanmarwat)
+- **Portfolio:** [flowcv.me/ikm](https://flowcv.me/ikm)
+- **GitHub:** [programmarself](https://github.com/programmarself)
+''')
 
 #####################
+# Experience
+st.markdown('''
+## Experience
+''')
+
+txt('**YoungDev Intern**, Python Developer', 'July 2024 - Present')
+txt('**TechWithWarriors (Pvt.) Ltd**, Python Developer', 'August 2024 - August 2024')
+txt('**CodeClause**, Python Development Intern', 'April 2024 - June 2024')
+txt('**Prodigy InfoTech**, Machine Learning Trainee', 'March 2024 - April 2024')
+txt('**MeriSKILL**, Data Analyst', 'March 2024 - April 2024')
+txt('**Bharat Intern**, Data Science', 'March 2024 - April 2024')
+txt('**Mentorness**, Machine Learning Intern', 'March 2024 - March 2024')
+txt('**CodSoft**, Machine Learning Engineer', 'February 2024 - March 2024')
+txt('**Accenture**, Data Scientist', 'January 2024 - February 2024')
+txt('**UTH**, Database Administrator', 'December 2021 - December 2023')
+txt('**MB Traders**, Computer Operator', 'August 2020 - December 2021')
+txt('**UTH**, Computer System Operator', 'January 2015 - August 2020')
+
+#####################
+# Education
 st.markdown('''
 ## Education
 ''')
 
-
-
-txt('**Bachelors of Science** (Computer Science), *Virtual University*, Pakistan',
-'2019-2024')
-st.markdown('''
-- GPA: `3.5`
-- Graduated with First Class Honors.
-''')
+txt('**Bachelor of Science - BS**, Computer Science, Virtual University of Pakistan', 'January 2019 - June 2024')
+txt('**ICS**, Mathematics and Computer Science, Government Degree College', '')
 
 #####################
-st.markdown('''
-## Work Experience
-''')
-
-txt('**Head, Center of Data Mining and Biomedical Informatics**, Faculty of Medical Technology, Mahidol University, Thailand',
-'2011-2021')
-st.markdown('''
-- Managing a Center of `10` professors, researchers and students to ensure KPIs are strategically achieved namely to publish at least `20+` research publications annually. 
-- Actively took part in the talent hiring process as well as help employees to plan and develop their career path.
-- Set budget and handle procurement in order to facilitate education and research activities. Secured `> 10 million THB` budget.
-- Set and reflect on OKR on an annual basis to ensure productivity strategically matches the organization's direction.
-''')
-
-txt('**Associate Professor**, Faculty of Medical Technology, Mahidol University, Thailand',
-'2012-2021')
-txt('**Assistant Professor**, Faculty of Medical Technology, Mahidol University, Thailand',
-'2009-2012')
-txt('**Lecturer**, Faculty of Medical Technology, Mahidol University, Thailand',
-'2006-2009')
-st.markdown('''
-- Provided mentorship and supervision to junior faculty, researchers, Ph.D./M.Sc./B.Sc. students. Mentored `3` Post-doctoral fellows, supervised `13` Ph.D. students, supervised `8` M.Sc. students, supervised `13` B.Sc. students and hosted `6` visiting students from U.S., Sweden and India.
-- Wrote and applied for research grants. Served as Principal Investigator for research grants that have been awarded `12.5 million THB` and `1.117 million SEK` in research funding from Thai and Swedish grant agencies.
-- Conducted research by applying machine learning to computational drug discovery and ensuring that research output exceeds `20+` articles per year.
-- Taught `10+` undergraduate/graduate classes on Bioinformatics, Data Mining, Scientific Research and Presentation, Research Methodology, Graduate Seminar, Programming for Health Data Science, etc.
-- Peer reviewed `100+` research articles for leading scientific journals.
-''')
-
-txt('**Co-Chair**, International Conference on Pharmaceutical Bioinformatics at Pattaya, Thailand',
-'2016')
-st.markdown('''
-- Oversee all aspects of the conference preparations from conception to launch. This include inviting keynote and plenary speakers, create advertisement flyers, create abstract book, etc.
-- Conference attracted `200+` participants from `40+` countries from university and industry sector.
-- Chaired keynote session, technical workshop and some of the parallel sessions.
-''')
-
-txt('**Content Creator**, [Data Professor YouTube Channel](https://youtube.com/dataprofessor/)',
-'2019-Present')
-st.markdown('''
-- `100,000+` subscribers on YouTube
-- Created `261` educational videos on data science, machine learning and bioinformatics as well as hosted several podcast episodes with data scientists.
-- Created `3` sponsored videos for Notion, Gradio and Classpert.
-''')
-
-txt('**Content Creator**, [Coding Professor YouTube Channel](https://youtube.com/codingprofessor/)',
-'2019-Present')
-st.markdown('''
-- `3,200+` subscribers on YouTube
-- Created `38` educational videos on Python and R programming.
-''')
-
-txt('**Technical Writer**, [Data Professor Blog](https://data-professor.medium.com/) on Medium.com',
-'2019-Present')
-st.markdown('''
-- `4,100+` subscribers on Medium
-- Written `68` technical blogs on data science, machine learning and bioinformatics.
-''')
-
-#####################
-st.markdown('''
-## Bioinformatics Tools
-''')
-txt4('ABCpred', 'A web server for the discovery of acetyl- and butyryl-cholinesterase inhibitors', 'http://codes.bio/abcpred/')
-txt4('AutoWeka', 'An automated data mining software based on Weka', 'http://www.mt.mahidol.ac.th/autoweka/')
-txt4('ACPred', 'A computational tool for the prediction and analysis of anticancer peptides','http://codes.bio/acpred/')
-txt4('BioCurator', 'A web server for curating ChEMBL bioactivity data', 'http://codes.bio/biocurator/')
-txt4('CryoProtect', 'A web server for classifying antifreeze proteins from non-antifreeze proteins','http://codes.bio/cryoprotect/')
-txt4('ERpred', 'A web server for the prediction of subtype-specific estrogen receptor antagonists', 'http://codes.bio/erpred')
-txt4('HCVpred', 'A web server for predicting the bioactivity of Hepatitis C virus NS5B inhibitors', 'http://codes.bio/hemopred/')
-txt4('HemoPred', 'A web server for predicting the hemolytic activity of peptides', 'http://codes.bio/hemopred/')
-txt4('iQSP', 'A sequence-based tool for the prediction and analysis of quorum sensing peptides', 'http://codes.bio/iqsp/')
-txt4('Meta-iAVP', 'A sequence-based meta-predictor for improving the prediction of antiviral peptides', 'http://codes.bio/meta-iavp/')
-txt4('osFP', 'A web server for predicting the oligomeric state of fluorescent proteins', 'http://codes.bio/osfp/')
-txt4('PAAP', 'A web server for predicting antihypertensive activity of peptides', 'http://codes.bio/paap/')
-txt4('PepBio', 'A web server for predicting the bioactivity of host defense peptide', 'http://codes.bio/pepbio')
-txt4('PyBact', 'Open source software written in Python for bacterial identification', 'https://sourceforge.net/projects/pybact/')
-txt4('TargetAntiAngio', 'A sequence-based tool for the prediction and analysis of anti-angiogenic peptides','http://codes.bio/targetantiangio/')
-txt4('ThalPred', 'Development of decision model for discriminating Thalassemia trait and Iron deficiency anemia','http://codes.bio/thalpred/')
-txt4('THPep', 'A web server for predicting tumor homing peptides','http://codes.bio/thpep/')
-
-
-#####################
+# Skills
 st.markdown('''
 ## Skills
 ''')
+
 txt3('Programming', '`Python`, `R`, `Linux`')
 txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
 txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`, `altair`, `ggplot2`')
@@ -192,20 +109,40 @@ txt3('Web development', '`Flask`, `HTML`, `CSS`')
 txt3('Model deployment', '`streamlit`, `gradio`, `R Shiny`, `Heroku`, `AWS`, `Digital Ocean`')
 
 #####################
+# Certifications
+st.markdown('''
+## Certifications
+''')
+
+txt3('Data Analytics Essentials', '')
+txt3('IBM Full Stack Software Developer', '')
+txt3('Google Cloud Digital Leader Training', '')
+txt3('Data Science Foundations', '')
+txt3('Generative AI Essentials', '')
+
+#####################
+# Honors-Awards and Publications
+st.markdown('''
+## Honors & Awards
+''')
+
+st.markdown('''
+- 4x Cisco Certified
+''')
+
+st.markdown('''
+## Publications
+''')
+
+txt3('A Gate Way to Quantum Machine Learning (QML)', '')
+txt3('New Era of Actuarial Science', '')
+
+#####################
+# Social Media
 st.markdown('''
 ## Social Media
 ''')
-txt2('LinkedIn', 'https://www.linkedin.com/in/chanin-nantasenamat')
-txt2('Kaggle', 'https://www.kaggle.com/programmarself')
+
+txt2('LinkedIn', 'https://www.linkedin.com/in/irfanullahkhanmarwat')
 txt2('GitHub', 'https://github.com/programmarself')
-txt2('', 'https://github.com/chaninlab/')
-txt2('', 'https://github.com/dataprofessor')
-txt2('ORCID', 'http://orcid.org/0000-0003-1040-663X')
-txt2('Scopus', 'http://www.scopus.com/authid/detail.url?authorId=12039071300')
-txt2('ResearcherID', 'http://www.researcherid.com/rid/F-1021-2010')
-txt2('ResearchGate', 'https://www.researchgate.net/profile/Chanin_Nantasenamat')
-txt2('Publons', 'https://publons.com/a/303133/')
-
-
-
-
+txt2('Portfolio', 'https://flowcv.me/ikm')

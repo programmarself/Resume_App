@@ -1,4 +1,6 @@
-# resume-app
+# Digital Resume Using Steamlit Module
+# YoungDevInterns_Python_Tasks
+
 
 ![image](https://github.com/user-attachments/assets/0559f64f-419d-4801-adc8-6ddd13a6ed4c)
 ![image](https://github.com/user-attachments/assets/6a35b95a-61e2-45f7-8976-629fb9414034)
